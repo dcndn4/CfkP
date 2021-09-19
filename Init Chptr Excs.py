@@ -63,6 +63,27 @@ poem = """
 print(f"{poem}")
 
 
+print(3)
+#%%
+
+name = "Zeke"
+adjective = "zany"
+favorite_snack = "Zheetos"
+number = "Zhree"
+type_of_tree = "Zaple"
+#%%
+
+silly_story = f'''
+    Hi, my name is {name}
+    I really like {adjective} {favorite_snack}
+    I like it so much, I try to eat it at least {number} times every decade.
+    It tastes even better when you eat it under a {type_of_tree}
+    '''
+print(silly_story)
+
+
+
+
 
 
 
