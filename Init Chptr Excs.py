@@ -80,16 +80,67 @@ silly_story = f'''
     It tastes even better when you eat it under a {type_of_tree}
     '''
 print(silly_story)
+#%%
 
 
+name = "Lulu"
+adjective = "lazy"
+favorite_snack = "limes"
+number = "lalillion"
+type_of_tree = "Lily"
+#%%
+# chapter three
+
+my_gpa = .02354
+4+5
+#%%
+a = 4
+b = 5
+a + b
+print (a+b)
+# so print is not really print, it's basically 'do this'...
+
+print (4+11)
+
+print(b**a)
+
+print(a%b)
+
+# PEMDAS mentioned here as well
+print(10==10)
+print(5!="five")
+print(10!="10")
+
+print(4 !=3)
+
+print (9!=9)
+#%%
+
+pizza_w_pepps = True
+pizza_w_mushes = False
+pizza_w_onions = True
+
+print(pizza_w_pepps and pizza_w_mushes)
+
+print(pizza_w_pepps or pizza_w_mushes)
+
+print(not pizza_w_onions)
+#%%
+
+Sue_jokes = 100
+Bob_jokes = 50
+
+print(Sue_jokes > Bob_jokes)
+print(f"Did Sue have an endless supply of jokes in class? That is ({Sue_jokes > Bob_jokes}")
+      
+#%%
 
 
+Sue_jokes = 100
+Bob_jokes = 50
 
 
-
-
-
-
+print(f"Did Sue have an endless supply of jokes in class.. That is {Sue_jokes > Bob_jokes}")
 
 
 
