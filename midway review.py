@@ -179,5 +179,59 @@ while(i < len(numbers)):
     if (numbers[i] + 2) < 20:
         print (f'the numbers under 20 are {numbers[i] + 2}')
     else:
-        print(f' the other numbers are {numbers[i]}')           
+        print(f' the other numbers <before adding 2> are {numbers[i]}')           
     i += 1    
+#%%
+
+print("Hi! My name is Juie. My favorite dessert is jelly beans")
+
+#%%
+
+i = 0
+
+#%%
+
+# First try, didn't work, not sure why..
+# error message is 'list indices must be integers or slices, not str
+# sigh
+
+# people = ['Mario', 'Peach', 'Luigi', 'Daisy', 'Toad', 'Yoshi']
+
+# desserts = ['Star Pudding', 'Peach Pie', 'Popsicles', 'Honey Cake', 'Cookies', 'Jelly Beans']
+
+# for i in people:
+#    print (f' Hi! My name is {people[i]} and my fav dessert is {desserts[i]}')
+    
+    
+
+people = ['Mario', 'Peach', 'Luigi', 'Daisy', 'Toad', 'Yoshi']
+
+desserts = ['Star Pudding', 'Peach Pie', 'Popsicles', 'Honey Cake', 'Cookies', 'Jelly Beans']
+
+for i in range(len(people)):
+    name = people[i]
+    food = desserts[i]
+    print (f' Hi! My name is {name} and my fav dessert is {food}')
+    
+#%%
+
+nachos_friends = ['athletic', 'not athletic', 'older', 'athletic', 'younger', 'athletic', 'not athletic', 'older', 'athletic', 'older', 'athletic']
+
+hula_hoops_by_swings = 0
+hula_hoops_by_basketball_court = 0
+
+for i in range(len(nachos_friends)):
+    if nachos_friends[i] == 'athletic':
+        hula_hoops_by_swings += 1
+    if nachos_friends[i] == 'younger':
+        hula_hoops_by_swings += 1
+    if nachos_friends[i] == 'not athletic':
+        hula_hoops_by_basketball_court += 1
+    if nachos_friends[i] == 'older':
+        hula_hoops_by_basketball_court += 1
+
+#%%
+
+has_zero_legs = 0
+has_two_legs = 0
+has_four_legs = 0
