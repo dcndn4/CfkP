@@ -13,6 +13,9 @@ food = "cake"
 
 #%%
 
+print("Hello Again, World!")
+#%%
+
 food = "beets"
 
 hobby = "knitting"
@@ -35,7 +38,7 @@ f = a == b
 
 g = a == 'b'
 
-h = a != ejjj
+h = a != e
 
 #%%
 
@@ -51,7 +54,7 @@ print(first_name + " " + last_name)
 
 #%%
 
-print(3 + "cookies")
+print(3*"cookies")
 
 #%%
 
