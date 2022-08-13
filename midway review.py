@@ -270,3 +270,34 @@ Animals with four legs: {has_four_legs}
 print(animal_summary)
 
 
+#%%
+
+birds_nest_ground = 0
+birds_nest_tree = 0
+birds_nest_other = 0
+#%%
+
+# nest ground = 1, nest tree = 10, nest other = 5
+
+birds = [0, 10, 5, 5, 10, 0, 0, 10, 0, 10]
+
+#%%
+
+for i in range(len(birds)):
+    if birds[i] == 0:
+        birds_nest_ground += 1
+    if birds[i] == 10:
+        birds_nest_tree += 1
+    if birds[i] == 5:
+        birds_nest_other += 1
+        
+#%%
+
+# but this is even better!
+bird_summary = f'''       
+survey of birds who build their nests on the ground: {birds_nest_ground}
+survey of birds who build their nests in trees: {birds_nest_tree}
+survey of birds who build their nests somewhere else: {birds_nest_other}
+'''
+
+print(bird_summary)
